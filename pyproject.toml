@@ -3,6 +3,7 @@ name = "huggingface"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
+    "ddgs>=9.16.1",
     "huggingface-hub>=2.4.0",
     "smolagents[litellm]>=1.26.0",
 ]
